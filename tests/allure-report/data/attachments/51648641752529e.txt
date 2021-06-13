@@ -1,8 +1,0 @@
-INFO     browseLogger:conftest.py:40 ===> Test test_delete_product started
-INFO     AdminPage:BasePage.py:17 browser was opened
-INFO     AdminPage:AdminPage.py:38 login completed
-INFO     AdminPage:AdminPage.py:44 navigated to the product page
-INFO     AdminPage:BasePage.py:24 title was verified
-ERROR    root:conftest.py:109 I got: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//tr[20]/td/input"}
-  (Session info: chrome=90.0.4430.72)
-INFO     browseLogger:conftest.py:100 ===> Test test_delete_product finished

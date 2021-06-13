@@ -1,1 +1,0 @@
-INFO     browseLogger:conftest.py:39 ===> Test test_find_el_on_admin_page started

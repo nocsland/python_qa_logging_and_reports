@@ -1,1 +1,0 @@
-INFO     browseLogger:conftest.py:38 ===> Test test_delete_product started

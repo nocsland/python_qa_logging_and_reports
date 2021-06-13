@@ -1,3 +1,0 @@
-INFO     browseLogger:conftest.py:37 ===> Test tests_find_el_catalog started
-ERROR    root:conftest.py:91 I got: 'WebDriver' object has no attribute 'url'
-INFO     browseLogger:conftest.py:82 ===> Test tests_find_el_catalog finished

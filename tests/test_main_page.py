@@ -1,8 +1,6 @@
-import keyword
-
 import allure
+
 from page_objects.MainPage import MainPage
-import os
 
 
 @allure.parent_suite("Проверка тестового магазина opencart")
@@ -49,9 +47,6 @@ def test_add_new_user(browser):
     main_page.verify_title('My Account')
 
 
-
-
-
 @allure.parent_suite("Проверка тестового магазина opencart")
 @allure.suite("Тесты главной страницы")
 @allure.epic("Проверка магазина на opencart")
@@ -70,5 +65,3 @@ def test_switch_currency(browser):
     main_page.click_switch_currency()
     main_page.wait_css_element('button[name="USD"]')
     main_page.click_to_currency('USD')
-
-

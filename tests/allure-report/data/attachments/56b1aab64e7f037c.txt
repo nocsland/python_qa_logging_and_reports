@@ -1,1 +1,0 @@
-INFO     browseLogger:conftest.py:39 ===> Test tests_product_card_page started

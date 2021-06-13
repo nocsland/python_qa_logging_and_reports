@@ -1,5 +1,7 @@
 import allure
+
 from page_objects.ProductCardPage import ProductCardPage
+
 
 @allure.parent_suite("Проверка тестового магазина opencart")
 @allure.suite("Тесты страницы карточки товара")

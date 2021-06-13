@@ -1,1 +1,0 @@
-INFO     browseLogger:conftest.py:39 ===> Test test_add_new_user started
