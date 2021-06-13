@@ -1,0 +1,372 @@
+{
+  "uid" : "fc58655023ee431e",
+  "name" : "Удаление продукта",
+  "fullName" : "tests.test_admin_page#test_delete_product",
+  "historyId" : "a749e41098ab2696b3705b84cdb546f0",
+  "time" : {
+    "start" : 1623596594973,
+    "stop" : 1623596598335,
+    "duration" : 3362
+  },
+  "description" : "Тест проверяет возможность удалить продукт",
+  "descriptionHtml" : "<p>Тест проверяет возможность удалить продукт</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1623596592614,
+      "stop" : 1623596594972,
+      "duration" : 2358
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_environment",
+    "time" : {
+      "start" : 1623596582440,
+      "stop" : 1623596582440,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1623596582439,
+      "stop" : 1623596582439,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Тест проверяет возможность удалить продукт",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d855761d302bfb",
+      "name" : "log",
+      "source" : "d855761d302bfb.txt",
+      "type" : "text/plain",
+      "size" : 533
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser::end",
+    "time" : {
+      "start" : 1623596598337,
+      "stop" : 1623596598395,
+      "duration" : 58
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Проверка магазина на opencart"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "suite",
+    "value" : "Тесты страницы админки"
+  }, {
+    "name" : "feature",
+    "value" : "Проверка админки"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Проверка тестового магазина opencart"
+  }, {
+    "name" : "host",
+    "value" : "anton-Aspire-Z3-605"
+  }, {
+    "name" : "thread",
+    "value" : "195464-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_admin_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "c10ca18fb72cb2bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623595742683,
+        "stop" : 1623595749687,
+        "duration" : 7004
+      }
+    }, {
+      "uid" : "6227663f0db62550",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623595495587,
+        "stop" : 1623595498466,
+        "duration" : 2879
+      }
+    }, {
+      "uid" : "1cf6700c40e00aff",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: Requested environment is not available",
+      "time" : {
+        "start" : 1623595455945,
+        "stop" : 1623595455945,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ec28b8709ad415b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623595379732,
+        "stop" : 1623595384934,
+        "duration" : 5202
+      }
+    }, {
+      "uid" : "101e0d8d0303533a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623595245757,
+        "stop" : 1623595249804,
+        "duration" : 4047
+      }
+    }, {
+      "uid" : "addfa2fb4aeba8f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623595157316,
+        "stop" : 1623595160412,
+        "duration" : 3096
+      }
+    }, {
+      "uid" : "78cbaa6819df904c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623595075040,
+        "stop" : 1623595078113,
+        "duration" : 3073
+      }
+    }, {
+      "uid" : "242fd0ca25913fc6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623594910781,
+        "stop" : 1623594914881,
+        "duration" : 4100
+      }
+    }, {
+      "uid" : "f56ec92325f46a51",
+      "status" : "broken",
+      "statusDetails" : "ValueError: driver not supported: firefox",
+      "time" : {
+        "start" : 1623594668740,
+        "stop" : 1623594668740,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5ec007586b447f73",
+      "status" : "broken",
+      "statusDetails" : "ValueError: driver not supported: firefox",
+      "time" : {
+        "start" : 1623594615368,
+        "stop" : 1623594615368,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ac8a352db7ab5475",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623594547295,
+        "stop" : 1623594556439,
+        "duration" : 9144
+      }
+    }, {
+      "uid" : "949a1f6f99776d9b",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Options' object has no attribute 'binary'",
+      "time" : {
+        "start" : 1623594321720,
+        "stop" : 1623594321720,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4e702031f0b73c09",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623594002633,
+        "stop" : 1623594005606,
+        "duration" : 2973
+      }
+    }, {
+      "uid" : "3489a59364c509e2",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//tr[20]/td/input\"}\n  (Session info: chrome=90.0.4430.72)",
+      "time" : {
+        "start" : 1623593912753,
+        "stop" : 1623593917305,
+        "duration" : 4552
+      }
+    }, {
+      "uid" : "fdc76da18fbf7e35",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//tr[20]/td/input\"}\n  (Session info: chrome=90.0.4430.72)",
+      "time" : {
+        "start" : 1623593847218,
+        "stop" : 1623593851903,
+        "duration" : 4685
+      }
+    }, {
+      "uid" : "34b6ea3cb9e18247",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623593283713,
+        "stop" : 1623593286669,
+        "duration" : 2956
+      }
+    }, {
+      "uid" : "6cda1931409afd90",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Options' object has no attribute 'binary'",
+      "time" : {
+        "start" : 1623593041802,
+        "stop" : 1623593041802,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b89a0b49a5cb96ef",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Options' object has no attribute 'binary'",
+      "time" : {
+        "start" : 1623592798614,
+        "stop" : 1623592798614,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fc99e29600ef9b42",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Options' object has no attribute 'binary'",
+      "time" : {
+        "start" : 1623592730272,
+        "stop" : 1623592730272,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e67849434f736e62",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Options' object has no attribute 'binary'",
+      "time" : {
+        "start" : 1623592665742,
+        "stop" : 1623592665742,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f8dac4a801909efa",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Options' object has no attribute 'binary'",
+      "time" : {
+        "start" : 1623592522783,
+        "stop" : 1623592522783,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a0cbe395862f5ca7",
+      "status" : "broken",
+      "statusDetails" : "TypeError: __init__() takes 1 positional argument but 2 were given",
+      "time" : {
+        "start" : 1623592318496,
+        "stop" : 1623592318496,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7d22f9cac2931a6a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: A WebDriver instance must be supplied",
+      "time" : {
+        "start" : 1623592158858,
+        "stop" : 1623592158858,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b72815c920424515",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: A WebDriver instance must be supplied",
+      "time" : {
+        "start" : 1623591961458,
+        "stop" : 1623591961458,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "28eee6d6df40c239",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623591515062,
+        "stop" : 1623591518241,
+        "duration" : 3179
+      }
+    }, {
+      "uid" : "9ac93f1942a66353",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebDriver' object has no attribute 'url'",
+      "time" : {
+        "start" : 1623591192272,
+        "stop" : 1623591192513,
+        "duration" : 241
+      }
+    }, {
+      "uid" : "f91282033ebd9149",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623590178133,
+        "stop" : 1623590181494,
+        "duration" : 3361
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fc58655023ee431e.json",
+  "parameterValues" : [ ]
+}

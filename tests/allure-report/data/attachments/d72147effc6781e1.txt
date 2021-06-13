@@ -1,0 +1,8 @@
+INFO     browseLogger:conftest.py:37 ===> Test tests_product_card_page started
+INFO     ProductCardPage:BasePage.py:17 browser was opened
+INFO     ProductCardPage:ProductCardPage.py:14 element was found
+INFO     ProductCardPage:ProductCardPage.py:19 element was found
+INFO     ProductCardPage:ProductCardPage.py:24 element was found
+INFO     ProductCardPage:ProductCardPage.py:29 element was found
+INFO     ProductCardPage:ProductCardPage.py:34 element was found
+INFO     browseLogger:conftest.py:81 ===> Test tests_product_card_page finished

@@ -1,0 +1,101 @@
+[ {
+  "uid" : "59662d60d8b0428f",
+  "name" : "Поиск элементов на странице админки",
+  "time" : {
+    "start" : 1623596584585,
+    "stop" : 1623596585435,
+    "duration" : 850
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "c3a2c67b6cafcc37",
+  "name" : "Вход под УЗ",
+  "time" : {
+    "start" : 1623596604314,
+    "stop" : 1623596605218,
+    "duration" : 904
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "a385b56065d9582a",
+  "name" : "Переключение валюты",
+  "time" : {
+    "start" : 1623596620977,
+    "stop" : 1623596624063,
+    "duration" : 3086
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cbe324af0dd86f40",
+  "name" : "Проверка title главной страницы",
+  "time" : {
+    "start" : 1623596607683,
+    "stop" : 1623596608513,
+    "duration" : 830
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d624fe5e3915f85c",
+  "name" : "Поиск элементов на главной странице",
+  "time" : {
+    "start" : 1623596610845,
+    "stop" : 1623596611852,
+    "duration" : 1007
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "fd2c1fd091717be6",
+  "name" : "Поиск элементов на странице карточки товара",
+  "time" : {
+    "start" : 1623596626543,
+    "stop" : 1623596628671,
+    "duration" : 2128
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc58655023ee431e",
+  "name" : "Удаление продукта",
+  "time" : {
+    "start" : 1623596594973,
+    "stop" : 1623596598335,
+    "duration" : 3362
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "fd1b29364014bff9",
+  "name" : "Поиск элементов на странице каталога",
+  "time" : {
+    "start" : 1623596600570,
+    "stop" : 1623596601736,
+    "duration" : 1166
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ba4dfe1ea63df495",
+  "name" : "Добавление нового пользователя",
+  "time" : {
+    "start" : 1623596614482,
+    "stop" : 1623596618285,
+    "duration" : 3803
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "d8602928ff30e8a0",
+  "name" : "Добавление продукта",
+  "time" : {
+    "start" : 1623596587985,
+    "stop" : 1623596592546,
+    "duration" : 4561
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]

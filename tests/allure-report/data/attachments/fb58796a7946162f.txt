@@ -1,0 +1,9 @@
+INFO     browseLogger:conftest.py:38 ===> Test test_delete_product started
+INFO     AdminPage:BasePage.py:17 browser was opened
+INFO     AdminPage:AdminPage.py:38 login completed
+INFO     AdminPage:AdminPage.py:44 navigated to the product page
+INFO     AdminPage:BasePage.py:24 title was verified
+INFO     AdminPage:AdminPage.py:76 product was deleted
+INFO     AdminPage:BasePage.py:30 switch alert is ok
+INFO     AdminPage:BasePage.py:36 element is visible
+INFO     browseLogger:conftest.py:98 ===> Test test_delete_product finished

@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Continue\"}\n  (Session info: chrome=90.0.4430.72)",
+      "children" : [ {
+        "name" : "Добавление нового пользователя",
+        "uid" : "ba4dfe1ea63df495",
+        "parentUid" : "914a194a352002261f74ac59b044a8fa",
+        "status" : "broken",
+        "time" : {
+          "start" : 1623596614482,
+          "stop" : 1623596618285,
+          "duration" : 3803
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "914a194a352002261f74ac59b044a8fa"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

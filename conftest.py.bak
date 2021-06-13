@@ -1,0 +1,80 @@
+import pytest
+import os
+import logging
+from selenium import webdriver
+from datetime import datetime
+from selenium.webdriver.support.events import EventFiringWebDriver, AbstractEventListener
+
+DRIVERS = os.path.expanduser('~/WebDriver')
+logging.basicConfig(level=logging.INFO, format="%(asctime)-15s [%(levelname)s] %(funcName)s: %(message)s",
+                    filename='info.log')
+
+
+def pytest_addoption(parser):
+    parser.addoption("--url", action='store', default="https://demo.opencart.com/", help="destination url")
+    parser.addoption("--maximized", action='store_true', help="Maximize browser windows")
+    parser.addoption("--headless", action='store_true', help="Run headless")
+    parser.addoption("--browser", action='store', choices=["chrome", "firefox", "opera"], default='chrome')
+
+
+@pytest.fixture(scope='session')
+def browser(request):
+    browser = request.config.getoption("--browser")
+    headless = request.config.getoption("--headless")
+    maximized = request.config.getoption("--maximized")
+    url = request.config.getoption("--url")
+    logger = logging.getLogger('browseLogger')
+    test_name = request.node.name
+
+    logger.info(f"===> Test {test_name} started")
+
+    if browser == 'chrome':
+        options = webdriver.ChromeOptions()
+        options.headless = headless
+        driver = webdriver.Chrome(options=options, executable_path=f'{DRIVERS}/chromedriver')
+    elif browser == 'firefox':
+        options = webdriver.FirefoxOptions()
+        options.headless = headless
+        driver = webdriver.Firefox(options=options, executable_path=f'{DRIVERS}/geckodriver')
+    elif browser == 'opera':
+        driver = webdriver.Opera(executable_path=f'{DRIVERS}/operadriver')
+    else:
+        raise ValueError('driver not supported: {}'.format(browser))
+
+    driver = EventFiringWebDriver(driver, MyListener())
+
+    if maximized:
+        driver.maximize_window()
+
+
+
+    def end():
+        driver.quit()
+        logger.info(f"===> Test {test_name} finished")
+
+    request.addfinalizer(end)
+    driver.url = url
+    return driver
+
+
+class MyListener(AbstractEventListener):
+    def on_exception(self, exception, driver):
+        screenshots_root = os.curdir + f'/screenshots/'
+        logging.error(f'I got: {exception}')
+        driver.save_screenshot(f'{screenshots_root}/{datetime.now()}_{exception}.png')
+
+
+
+@pytest.fixture(scope="session", autouse=True)
+def get_environment(pytestconfig):
+    browser_name = pytestconfig.getoption("--browser")
+    props = {
+        'OS': os.getenv('DESKTOP_SESSION'),
+        'Browser': browser_name,
+        'Stand': 'Production'
+    }
+
+    tests_root = pytestconfig.rootdir
+    with open(f'{tests_root}/tests/allure-results/environment.properties', 'w') as f:
+        for k, v in props.items():
+            f.write(f'{k}={v}\n')

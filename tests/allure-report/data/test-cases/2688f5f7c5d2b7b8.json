@@ -1,0 +1,143 @@
+{
+  "uid" : "2688f5f7c5d2b7b8",
+  "name" : "Добавление продукта",
+  "fullName" : "tests.test_admin_page#test_add_product",
+  "historyId" : "4c6c6beeeede54bc8e7a0b019622fc83",
+  "time" : {
+    "start" : 1623591190185,
+    "stop" : 1623591190385,
+    "duration" : 200
+  },
+  "description" : "Тест проверяет возможность добавить новый продукт",
+  "descriptionHtml" : "<p>Тест проверяет возможность добавить новый продукт</p>\n",
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'WebDriver' object has no attribute 'url'",
+  "statusTrace" : "browser = <selenium.webdriver.support.event_firing_webdriver.EventFiringWebDriver object at 0x7ff179dae3a0>\n\n    @allure.parent_suite(\"Проверка тестового магазина opencart\")\n    @allure.suite(\"Тесты страницы админки\")\n    @allure.feature(\"Проверка админки\")\n    @allure.epic(\"Проверка магазина на opencart\")\n    @allure.title(\"Добавление продукта\")\n    @allure.description(\"Тест проверяет возможность добавить новый продукт\")\n    @allure.severity(allure.severity_level.CRITICAL)\n    def test_add_product(browser):\n>       admin_page = AdminPage(browser).open()\n\ntest_admin_page.py:29: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n../page_objects/BasePage.py:12: in __init__\n    self.url = browser.url\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.support.event_firing_webdriver.EventFiringWebDriver object at 0x7ff179dae3a0>\nname = 'url'\n\n    def __getattr__(self, name):\n        def _wrap(*args, **kwargs):\n            try:\n                result = attrib(*args, **kwargs)\n                return _wrap_elements(result, self)\n            except Exception as e:\n                self._listener.on_exception(e, self._driver)\n                raise\n    \n        try:\n>           attrib = getattr(self._driver, name)\nE           AttributeError: 'WebDriver' object has no attribute 'url'\n\n../venv/lib/python3.8/site-packages/selenium/webdriver/support/event_firing_webdriver.py:199: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1623591188339,
+      "stop" : 1623591190180,
+      "duration" : 1841
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_environment",
+    "time" : {
+      "start" : 1623591186614,
+      "stop" : 1623591186614,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1623591186613,
+      "stop" : 1623591186613,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Тест проверяет возможность добавить новый продукт",
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'WebDriver' object has no attribute 'url'",
+    "statusTrace" : "browser = <selenium.webdriver.support.event_firing_webdriver.EventFiringWebDriver object at 0x7ff179dae3a0>\n\n    @allure.parent_suite(\"Проверка тестового магазина opencart\")\n    @allure.suite(\"Тесты страницы админки\")\n    @allure.feature(\"Проверка админки\")\n    @allure.epic(\"Проверка магазина на opencart\")\n    @allure.title(\"Добавление продукта\")\n    @allure.description(\"Тест проверяет возможность добавить новый продукт\")\n    @allure.severity(allure.severity_level.CRITICAL)\n    def test_add_product(browser):\n>       admin_page = AdminPage(browser).open()\n\ntest_admin_page.py:29: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n../page_objects/BasePage.py:12: in __init__\n    self.url = browser.url\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.support.event_firing_webdriver.EventFiringWebDriver object at 0x7ff179dae3a0>\nname = 'url'\n\n    def __getattr__(self, name):\n        def _wrap(*args, **kwargs):\n            try:\n                result = attrib(*args, **kwargs)\n                return _wrap_elements(result, self)\n            except Exception as e:\n                self._listener.on_exception(e, self._driver)\n                raise\n    \n        try:\n>           attrib = getattr(self._driver, name)\nE           AttributeError: 'WebDriver' object has no attribute 'url'\n\n../venv/lib/python3.8/site-packages/selenium/webdriver/support/event_firing_webdriver.py:199: AttributeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e795f30f74c1afd6",
+      "name" : "log",
+      "source" : "e795f30f74c1afd6.txt",
+      "type" : "text/plain",
+      "size" : 222
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser::end",
+    "time" : {
+      "start" : 1623591190430,
+      "stop" : 1623591190504,
+      "duration" : 74
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Тесты страницы админки"
+  }, {
+    "name" : "epic",
+    "value" : "Проверка магазина на opencart"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Проверка тестового магазина opencart"
+  }, {
+    "name" : "feature",
+    "value" : "Проверка админки"
+  }, {
+    "name" : "host",
+    "value" : "anton-Aspire-Z3-605"
+  }, {
+    "name" : "thread",
+    "value" : "124639-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_admin_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2688f5f7c5d2b7b8.json",
+  "parameterValues" : [ ]
+}

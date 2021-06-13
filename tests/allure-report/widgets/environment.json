@@ -1,0 +1,10 @@
+[ {
+  "values" : [ "ubuntu" ],
+  "name" : "OS"
+}, {
+  "values" : [ "chrome" ],
+  "name" : "Browser"
+}, {
+  "values" : [ "Production" ],
+  "name" : "Stand"
+} ]
