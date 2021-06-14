@@ -1,4 +1,0 @@
-INFO     browseLogger:conftest.py:39 ===> Test test_find_el_on_admin_page started
-ERROR    root:conftest.py:109 I got: Message: unknown error: net::ERR_CONNECTION_REFUSED
-  (Session info: chrome=91.0.4472.101)
-INFO     browseLogger:conftest.py:62 ===> Test test_find_el_on_admin_page finished
