@@ -5,40 +5,40 @@
     "children" : [ {
       "name" : "Проверка админки",
       "children" : [ {
-        "name" : "Поиск элементов на странице админки",
-        "uid" : "2182a589f52127bd",
+        "name" : "Удаление продукта",
+        "uid" : "30a4e9c7fa3199e9",
         "parentUid" : "64e109cb6021ff1ce5a722094e29a350",
         "status" : "passed",
         "time" : {
-          "start" : 1623686102513,
-          "stop" : 1623686104593,
-          "duration" : 2080
+          "start" : 1623689279853,
+          "stop" : 1623689285391,
+          "duration" : 5538
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "Удаление продукта",
-        "uid" : "89612dfd29f77d97",
+        "name" : "Поиск элементов на странице админки",
+        "uid" : "8780134327cdb41a",
         "parentUid" : "64e109cb6021ff1ce5a722094e29a350",
         "status" : "passed",
         "time" : {
-          "start" : 1623686102564,
-          "stop" : 1623686110292,
-          "duration" : 7728
+          "start" : 1623689280937,
+          "stop" : 1623689282391,
+          "duration" : 1454
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Добавление продукта",
-        "uid" : "fc50a1c55293ce58",
+        "uid" : "3336a2c426f187d0",
         "parentUid" : "64e109cb6021ff1ce5a722094e29a350",
         "status" : "passed",
         "time" : {
-          "start" : 1623686102644,
-          "stop" : 1623686110715,
-          "duration" : 8071
+          "start" : 1623689281521,
+          "stop" : 1623689290386,
+          "duration" : 8865
         },
         "flaky" : false,
         "newFailed" : false,
@@ -49,13 +49,13 @@
       "name" : "Проверка каталога",
       "children" : [ {
         "name" : "Поиск элементов на странице каталога",
-        "uid" : "6dbeb1192706dfc2",
+        "uid" : "54e57de2fc1aa103",
         "parentUid" : "cb6b8d3e0d2300d7342e0b808f465bd2",
         "status" : "passed",
         "time" : {
-          "start" : 1623686107330,
-          "stop" : 1623686109499,
-          "duration" : 2169
+          "start" : 1623689285284,
+          "stop" : 1623689286999,
+          "duration" : 1715
         },
         "flaky" : false,
         "newFailed" : false,
@@ -63,59 +63,16 @@
       } ],
       "uid" : "cb6b8d3e0d2300d7342e0b808f465bd2"
     }, {
-      "name" : "Проверка главной страницы",
-      "children" : [ {
-        "name" : "Поиск элементов на главной странице",
-        "uid" : "8f1f44db577f8f94",
-        "parentUid" : "5d268c2b0080e64a27bc10b639adc7ff",
-        "status" : "passed",
-        "time" : {
-          "start" : 1623686111929,
-          "stop" : 1623686115265,
-          "duration" : 3336
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Добавление нового пользователя",
-        "uid" : "69438169ab6cdc4",
-        "parentUid" : "5d268c2b0080e64a27bc10b639adc7ff",
-        "status" : "broken",
-        "time" : {
-          "start" : 1623686117821,
-          "stop" : 1623686125884,
-          "duration" : 8063
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "Переключение валюты",
-        "uid" : "b8952d88824262c1",
-        "parentUid" : "5d268c2b0080e64a27bc10b639adc7ff",
-        "status" : "passed",
-        "time" : {
-          "start" : 1623686119266,
-          "stop" : 1623686125368,
-          "duration" : 6102
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "5d268c2b0080e64a27bc10b639adc7ff"
-    }, {
       "name" : "Проверка title",
       "children" : [ {
         "name" : "Проверка title главной страницы",
-        "uid" : "668a778d6ee6d248",
+        "uid" : "4f6a13f1c7a24e76",
         "parentUid" : "5f5c2d2e634ba2eef32b1cd4e0631467",
         "status" : "passed",
         "time" : {
-          "start" : 1623686113847,
-          "stop" : 1623686115984,
-          "duration" : 2137
+          "start" : 1623689287909,
+          "stop" : 1623689289728,
+          "duration" : 1819
         },
         "flaky" : false,
         "newFailed" : false,
@@ -123,16 +80,59 @@
       } ],
       "uid" : "5f5c2d2e634ba2eef32b1cd4e0631467"
     }, {
+      "name" : "Проверка главной страницы",
+      "children" : [ {
+        "name" : "Поиск элементов на главной странице",
+        "uid" : "7e250d849f1aba9d",
+        "parentUid" : "5d268c2b0080e64a27bc10b639adc7ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623689289609,
+          "stop" : 1623689290988,
+          "duration" : 1379
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Добавление нового пользователя",
+        "uid" : "50ebcc82f38992ab",
+        "parentUid" : "5d268c2b0080e64a27bc10b639adc7ff",
+        "status" : "broken",
+        "time" : {
+          "start" : 1623689291955,
+          "stop" : 1623689298557,
+          "duration" : 6602
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Переключение валюты",
+        "uid" : "2e38e6570a91121c",
+        "parentUid" : "5d268c2b0080e64a27bc10b639adc7ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623689295590,
+          "stop" : 1623689299357,
+          "duration" : 3767
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5d268c2b0080e64a27bc10b639adc7ff"
+    }, {
       "name" : "Проверка наличия элементов на странице логина",
       "children" : [ {
         "name" : "Поиск элементов на странице логина",
-        "uid" : "d6d48e558a9c90f",
+        "uid" : "d201a1d033a4057a",
         "parentUid" : "f97cf36c373f9270f379c8347e15f7fc",
         "status" : "passed",
         "time" : {
-          "start" : 1623686114605,
-          "stop" : 1623686116285,
-          "duration" : 1680
+          "start" : 1623689293553,
+          "stop" : 1623689295924,
+          "duration" : 2371
         },
         "flaky" : false,
         "newFailed" : false,
@@ -143,13 +143,13 @@
       "name" : "Проверка карточки товара",
       "children" : [ {
         "name" : "Поиск элементов на странице карточки товара",
-        "uid" : "2c77aa84dfbaceb1",
+        "uid" : "6217f0a00245f8db",
         "parentUid" : "f25377654cf785ce748086fd7051404f",
         "status" : "passed",
         "time" : {
-          "start" : 1623686120287,
-          "stop" : 1623686124185,
-          "duration" : 3898
+          "start" : 1623689301105,
+          "stop" : 1623689303340,
+          "duration" : 2235
         },
         "flaky" : false,
         "newFailed" : false,

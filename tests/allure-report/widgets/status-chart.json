@@ -1,101 +1,101 @@
 [ {
-  "uid" : "6dbeb1192706dfc2",
-  "name" : "Поиск элементов на странице каталога",
+  "uid" : "2e38e6570a91121c",
+  "name" : "Переключение валюты",
   "time" : {
-    "start" : 1623686107330,
-    "stop" : 1623686109499,
-    "duration" : 2169
+    "start" : 1623689295590,
+    "stop" : 1623689299357,
+    "duration" : 3767
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "668a778d6ee6d248",
+  "uid" : "30a4e9c7fa3199e9",
+  "name" : "Удаление продукта",
+  "time" : {
+    "start" : 1623689279853,
+    "stop" : 1623689285391,
+    "duration" : 5538
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "4f6a13f1c7a24e76",
   "name" : "Проверка title главной страницы",
   "time" : {
-    "start" : 1623686113847,
-    "stop" : 1623686115984,
-    "duration" : 2137
+    "start" : 1623689287909,
+    "stop" : 1623689289728,
+    "duration" : 1819
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "2182a589f52127bd",
-  "name" : "Поиск элементов на странице админки",
-  "time" : {
-    "start" : 1623686102513,
-    "stop" : 1623686104593,
-    "duration" : 2080
-  },
-  "status" : "passed",
-  "severity" : "trivial"
-}, {
-  "uid" : "fc50a1c55293ce58",
+  "uid" : "3336a2c426f187d0",
   "name" : "Добавление продукта",
   "time" : {
-    "start" : 1623686102644,
-    "stop" : 1623686110715,
-    "duration" : 8071
+    "start" : 1623689281521,
+    "stop" : 1623689290386,
+    "duration" : 8865
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "d6d48e558a9c90f",
-  "name" : "Поиск элементов на странице логина",
+  "uid" : "6217f0a00245f8db",
+  "name" : "Поиск элементов на странице карточки товара",
   "time" : {
-    "start" : 1623686114605,
-    "stop" : 1623686116285,
-    "duration" : 1680
+    "start" : 1623689301105,
+    "stop" : 1623689303340,
+    "duration" : 2235
   },
   "status" : "passed",
-  "severity" : "critical"
+  "severity" : "normal"
 }, {
-  "uid" : "8f1f44db577f8f94",
+  "uid" : "7e250d849f1aba9d",
   "name" : "Поиск элементов на главной странице",
   "time" : {
-    "start" : 1623686111929,
-    "stop" : 1623686115265,
-    "duration" : 3336
+    "start" : 1623689289609,
+    "stop" : 1623689290988,
+    "duration" : 1379
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "69438169ab6cdc4",
+  "uid" : "54e57de2fc1aa103",
+  "name" : "Поиск элементов на странице каталога",
+  "time" : {
+    "start" : 1623689285284,
+    "stop" : 1623689286999,
+    "duration" : 1715
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "50ebcc82f38992ab",
   "name" : "Добавление нового пользователя",
   "time" : {
-    "start" : 1623686117821,
-    "stop" : 1623686125884,
-    "duration" : 8063
+    "start" : 1623689291955,
+    "stop" : 1623689298557,
+    "duration" : 6602
   },
   "status" : "broken",
   "severity" : "critical"
 }, {
-  "uid" : "b8952d88824262c1",
-  "name" : "Переключение валюты",
+  "uid" : "d201a1d033a4057a",
+  "name" : "Поиск элементов на странице логина",
   "time" : {
-    "start" : 1623686119266,
-    "stop" : 1623686125368,
-    "duration" : 6102
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "89612dfd29f77d97",
-  "name" : "Удаление продукта",
-  "time" : {
-    "start" : 1623686102564,
-    "stop" : 1623686110292,
-    "duration" : 7728
+    "start" : 1623689293553,
+    "stop" : 1623689295924,
+    "duration" : 2371
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "2c77aa84dfbaceb1",
-  "name" : "Поиск элементов на странице карточки товара",
+  "uid" : "8780134327cdb41a",
+  "name" : "Поиск элементов на странице админки",
   "time" : {
-    "start" : 1623686120287,
-    "stop" : 1623686124185,
-    "duration" : 3898
+    "start" : 1623689280937,
+    "stop" : 1623689282391,
+    "duration" : 1454
   },
   "status" : "passed",
-  "severity" : "normal"
+  "severity" : "trivial"
 } ]

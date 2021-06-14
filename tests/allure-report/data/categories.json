@@ -6,13 +6,13 @@
       "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Continue\"}\n  (Session info: chrome=91.0.4472.101)",
       "children" : [ {
         "name" : "Добавление нового пользователя",
-        "uid" : "69438169ab6cdc4",
+        "uid" : "50ebcc82f38992ab",
         "parentUid" : "5e8a7e532cf4dfd7798a067df44efd93",
         "status" : "broken",
         "time" : {
-          "start" : 1623686117821,
-          "stop" : 1623686125884,
-          "duration" : 8063
+          "start" : 1623689291955,
+          "stop" : 1623689298557,
+          "duration" : 6602
         },
         "flaky" : false,
         "newFailed" : false,
