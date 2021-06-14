@@ -127,9 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-/tests/.screenshots/
-/tests/.allure-report/
-/tests/.allure-results/
+/tests/screenshots/
+/tests/allure-report/
+/tests/allure-results/
 .allure-report/
 .allure-results/
 .screenshots/
