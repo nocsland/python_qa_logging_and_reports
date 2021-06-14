@@ -1,0 +1,277 @@
+{
+  "uid" : "4f6a13f1c7a24e76",
+  "name" : "Проверка title главной страницы",
+  "fullName" : "tests.test_main_page#test_is_title",
+  "historyId" : "d9cfbb3aff4c8ce83bd75d2356a2eba2",
+  "time" : {
+    "start" : 1623689287909,
+    "stop" : 1623689289728,
+    "duration" : 1819
+  },
+  "description" : "Тест проверяет title главной страницы",
+  "descriptionHtml" : "<p>Тест проверяет title главной страницы</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_environment",
+    "time" : {
+      "start" : 1623689278539,
+      "stop" : 1623689278539,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "browser",
+    "time" : {
+      "start" : 1623689285604,
+      "stop" : 1623689287903,
+      "duration" : 2299
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1623689278538,
+      "stop" : 1623689278538,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Тест проверяет title главной страницы",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b1a4e8c4984f9399",
+      "name" : "log",
+      "source" : "b1a4e8c4984f9399.txt",
+      "type" : "text/plain",
+      "size" : 242
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser::fin",
+    "time" : {
+      "start" : 1623689289731,
+      "stop" : 1623689289870,
+      "duration" : 139
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Проверка магазина на opencart"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Проверка тестового магазина opencart"
+  }, {
+    "name" : "feature",
+    "value" : "Проверка title"
+  }, {
+    "name" : "suite",
+    "value" : "Тесты главной страницы"
+  }, {
+    "name" : "host",
+    "value" : "anton-Aspire-Z3-605"
+  }, {
+    "name" : "thread",
+    "value" : "82219-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_main_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "576222bcf181f35",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623689107452,
+        "stop" : 1623689109123,
+        "duration" : 1671
+      }
+    }, {
+      "uid" : "e95952dabeb5bb73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623686113847,
+        "stop" : 1623686115984,
+        "duration" : 2137
+      }
+    }, {
+      "uid" : "b6ac41127e304521",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623683232719,
+        "stop" : 1623683234614,
+        "duration" : 1895
+      }
+    }, {
+      "uid" : "632af805379c884c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623680000998,
+        "stop" : 1623680002872,
+        "duration" : 1874
+      }
+    }, {
+      "uid" : "391e451a886d3f63",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623672013229,
+        "stop" : 1623672014344,
+        "duration" : 1115
+      }
+    }, {
+      "uid" : "88d14f77f9dd913c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623671948670,
+        "stop" : 1623671949918,
+        "duration" : 1248
+      }
+    }, {
+      "uid" : "387123bd6a675577",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623641402167,
+        "stop" : 1623641403489,
+        "duration" : 1322
+      }
+    }, {
+      "uid" : "8a77a54cd172aa82",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623641264324,
+        "stop" : 1623641265829,
+        "duration" : 1505
+      }
+    }, {
+      "uid" : "ad690cc8fcec1093",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623641169442,
+        "stop" : 1623641170655,
+        "duration" : 1213
+      }
+    }, {
+      "uid" : "48e6200ce8d18c11",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623602235454,
+        "stop" : 1623602236314,
+        "duration" : 860
+      }
+    }, {
+      "uid" : "521be02999ce67c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623601766271,
+        "stop" : 1623601767446,
+        "duration" : 1175
+      }
+    }, {
+      "uid" : "f19c01ba944e048e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623600950370,
+        "stop" : 1623600951475,
+        "duration" : 1105
+      }
+    }, {
+      "uid" : "22394c05b6b95b9f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623600878171,
+        "stop" : 1623600879728,
+        "duration" : 1557
+      }
+    }, {
+      "uid" : "6bc89b498c87a650",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623600800886,
+        "stop" : 1623600801661,
+        "duration" : 775
+      }
+    }, {
+      "uid" : "cf8829161fc933de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623600304887,
+        "stop" : 1623600305795,
+        "duration" : 908
+      }
+    }, {
+      "uid" : "5215883f6207cb4c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623600242670,
+        "stop" : 1623600243573,
+        "duration" : 903
+      }
+    }, {
+      "uid" : "193c29e0ea9e3291",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623600080387,
+        "stop" : 1623600081328,
+        "duration" : 941
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4f6a13f1c7a24e76.json",
+  "parameterValues" : [ ]
+}
