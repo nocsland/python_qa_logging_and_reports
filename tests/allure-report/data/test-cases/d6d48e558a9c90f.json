@@ -1,0 +1,285 @@
+{
+  "uid" : "d6d48e558a9c90f",
+  "name" : "Поиск элементов на странице логина",
+  "fullName" : "tests.test_login_page#test_login_page",
+  "historyId" : "08969c5a0f8a9bbe3998ec87e9ad0c71",
+  "time" : {
+    "start" : 1623686114605,
+    "stop" : 1623686116285,
+    "duration" : 1680
+  },
+  "description" : "Тест проверяет наличие элементов на странице логина",
+  "descriptionHtml" : "<p>Тест проверяет наличие элементов на странице логина</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_environment",
+    "time" : {
+      "start" : 1623686099799,
+      "stop" : 1623686099800,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "browser",
+    "time" : {
+      "start" : 1623686110858,
+      "stop" : 1623686114599,
+      "duration" : 3741
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1623686099799,
+      "stop" : 1623686099799,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Тест проверяет наличие элементов на странице логина",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ddf3e8a7c9a1406f",
+      "name" : "log",
+      "source" : "ddf3e8a7c9a1406f.txt",
+      "type" : "text/plain",
+      "size" : 494
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser::fin",
+    "time" : {
+      "start" : 1623686116287,
+      "stop" : 1623686116365,
+      "duration" : 78
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Проверка тестового магазина opencart"
+  }, {
+    "name" : "suite",
+    "value" : "Тесты страницы авторизации"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "epic",
+    "value" : "Проверка магазина на opencart"
+  }, {
+    "name" : "feature",
+    "value" : "Проверка наличия элементов на странице логина"
+  }, {
+    "name" : "host",
+    "value" : "anton-Aspire-Z3-605"
+  }, {
+    "name" : "thread",
+    "value" : "73633-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_login_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "d391837f6d39c712",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623686084710,
+        "stop" : 1623686085638,
+        "duration" : 928
+      }
+    }, {
+      "uid" : "a53ad41770f0478",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623685903739,
+        "stop" : 1623685904722,
+        "duration" : 983
+      }
+    }, {
+      "uid" : "79f315c8dc2b5359",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623685877470,
+        "stop" : 1623685878413,
+        "duration" : 943
+      }
+    }, {
+      "uid" : "c3d97f7a66b5333a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623683236012,
+        "stop" : 1623683238024,
+        "duration" : 2012
+      }
+    }, {
+      "uid" : "b10ce0094d04fae2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623680005000,
+        "stop" : 1623680007762,
+        "duration" : 2762
+      }
+    }, {
+      "uid" : "84d562806dec5a75",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623672018099,
+        "stop" : 1623672019763,
+        "duration" : 1664
+      }
+    }, {
+      "uid" : "8c3a21ff360ba86f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623671951048,
+        "stop" : 1623671952942,
+        "duration" : 1894
+      }
+    }, {
+      "uid" : "311b33050346511d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623641404430,
+        "stop" : 1623641405758,
+        "duration" : 1328
+      }
+    }, {
+      "uid" : "4a64b5e09535c33",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623641263176,
+        "stop" : 1623641265457,
+        "duration" : 2281
+      }
+    }, {
+      "uid" : "4fcd48cf2006e071",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623641171113,
+        "stop" : 1623641172554,
+        "duration" : 1441
+      }
+    }, {
+      "uid" : "c8db605e07e91e64",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623602234272,
+        "stop" : 1623602235262,
+        "duration" : 990
+      }
+    }, {
+      "uid" : "f2c644bff8a383c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623601771445,
+        "stop" : 1623601772505,
+        "duration" : 1060
+      }
+    }, {
+      "uid" : "f215e185ea840cc4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623600952825,
+        "stop" : 1623600953900,
+        "duration" : 1075
+      }
+    }, {
+      "uid" : "ac509bf446b65d87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623600882461,
+        "stop" : 1623600883521,
+        "duration" : 1060
+      }
+    }, {
+      "uid" : "8e5378c8e4b90242",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623600798597,
+        "stop" : 1623600799540,
+        "duration" : 943
+      }
+    }, {
+      "uid" : "78fe2c3c1c26e654",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623600301956,
+        "stop" : 1623600302931,
+        "duration" : 975
+      }
+    }, {
+      "uid" : "97a6a1c30e44c128",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623600239847,
+        "stop" : 1623600240813,
+        "duration" : 966
+      }
+    }, {
+      "uid" : "8f8ec34fb0b69e2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623600082190,
+        "stop" : 1623600083873,
+        "duration" : 1683
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d6d48e558a9c90f.json",
+  "parameterValues" : [ ]
+}

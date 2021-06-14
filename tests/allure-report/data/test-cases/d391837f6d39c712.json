@@ -1,0 +1,139 @@
+{
+  "uid" : "d391837f6d39c712",
+  "name" : "Поиск элементов на странице логина",
+  "fullName" : "tests.test_login_page#test_login_page",
+  "historyId" : "08969c5a0f8a9bbe3998ec87e9ad0c71",
+  "time" : {
+    "start" : 1623686084710,
+    "stop" : 1623686085638,
+    "duration" : 928
+  },
+  "description" : "Тест проверяет наличие элементов на странице логина",
+  "descriptionHtml" : "<p>Тест проверяет наличие элементов на странице логина</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1623686082440,
+      "stop" : 1623686082440,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "browser",
+    "time" : {
+      "start" : 1623686082441,
+      "stop" : 1623686084703,
+      "duration" : 2262
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_environment",
+    "time" : {
+      "start" : 1623686082440,
+      "stop" : 1623686082441,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Тест проверяет наличие элементов на странице логина",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "822e7036121a9571",
+      "name" : "log",
+      "source" : "822e7036121a9571.txt",
+      "type" : "text/plain",
+      "size" : 494
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser::fin",
+    "time" : {
+      "start" : 1623686085640,
+      "stop" : 1623686085709,
+      "duration" : 69
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "Проверка наличия элементов на странице логина"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Проверка тестового магазина opencart"
+  }, {
+    "name" : "epic",
+    "value" : "Проверка магазина на opencart"
+  }, {
+    "name" : "suite",
+    "value" : "Тесты страницы авторизации"
+  }, {
+    "name" : "host",
+    "value" : "anton-Aspire-Z3-605"
+  }, {
+    "name" : "thread",
+    "value" : "73383-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_login_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d391837f6d39c712.json",
+  "parameterValues" : [ ]
+}

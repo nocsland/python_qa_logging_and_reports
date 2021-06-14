@@ -1,0 +1,139 @@
+{
+  "uid" : "a807a36ac64da24c",
+  "name" : "Поиск элементов на странице карточки товара",
+  "fullName" : "tests.test_product_card_page#tests_product_card_page",
+  "historyId" : "9127e26ff464c33c439bc9fefa519de7",
+  "time" : {
+    "start" : 1623600955393,
+    "stop" : 1623600957657,
+    "duration" : 2264
+  },
+  "description" : "Тест проверяет наличие элементов на странице карточки товара",
+  "descriptionHtml" : "<p>Тест проверяет наличие элементов на странице карточки товара</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1623600943686,
+      "stop" : 1623600943686,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "browser",
+    "time" : {
+      "start" : 1623600953975,
+      "stop" : 1623600955390,
+      "duration" : 1415
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_environment",
+    "time" : {
+      "start" : 1623600943686,
+      "stop" : 1623600943687,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Тест проверяет наличие элементов на странице карточки товара",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e645f25ef4ac6fbf",
+      "name" : "log",
+      "source" : "e645f25ef4ac6fbf.txt",
+      "type" : "text/plain",
+      "size" : 542
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser::fin",
+    "time" : {
+      "start" : 1623600957659,
+      "stop" : 1623600957724,
+      "duration" : 65
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Тесты страницы карточки товара"
+  }, {
+    "name" : "feature",
+    "value" : "Проверка карточки товара"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Проверка тестового магазина opencart"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "epic",
+    "value" : "Проверка магазина на opencart"
+  }, {
+    "name" : "host",
+    "value" : "anton-Aspire-Z3-605"
+  }, {
+    "name" : "thread",
+    "value" : "273133-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_product_card_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a807a36ac64da24c.json",
+  "parameterValues" : [ ]
+}

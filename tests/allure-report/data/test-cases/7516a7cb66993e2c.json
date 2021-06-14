@@ -1,0 +1,139 @@
+{
+  "uid" : "7516a7cb66993e2c",
+  "name" : "Поиск элементов на главной странице",
+  "fullName" : "tests.test_main_page#test_find_el_main",
+  "historyId" : "1b19a6d57fdb5dfbed11ce4aaa79d781",
+  "time" : {
+    "start" : 1623600951231,
+    "stop" : 1623600952236,
+    "duration" : 1005
+  },
+  "description" : "Тест проверяет наличие элементов на главной странице",
+  "descriptionHtml" : "<p>Тест проверяет наличие элементов на главной странице</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "pytestconfig",
+    "time" : {
+      "start" : 1623600943686,
+      "stop" : 1623600943686,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_environment",
+    "time" : {
+      "start" : 1623600943686,
+      "stop" : 1623600943687,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "browser",
+    "time" : {
+      "start" : 1623600949764,
+      "stop" : 1623600951228,
+      "duration" : 1464
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Тест проверяет наличие элементов на главной странице",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ba2c6daf282faadc",
+      "name" : "log",
+      "source" : "ba2c6daf282faadc.txt",
+      "type" : "text/plain",
+      "size" : 452
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser::fin",
+    "time" : {
+      "start" : 1623600952237,
+      "stop" : 1623600952301,
+      "duration" : 64
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Проверка тестового магазина opencart"
+  }, {
+    "name" : "suite",
+    "value" : "Тесты главной страницы"
+  }, {
+    "name" : "epic",
+    "value" : "Проверка магазина на opencart"
+  }, {
+    "name" : "feature",
+    "value" : "Проверка главной страницы"
+  }, {
+    "name" : "host",
+    "value" : "anton-Aspire-Z3-605"
+  }, {
+    "name" : "thread",
+    "value" : "273130-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_main_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7516a7cb66993e2c.json",
+  "parameterValues" : [ ]
+}

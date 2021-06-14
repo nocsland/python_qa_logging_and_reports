@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "811742f51524e069",
+      "uid" : "b8952d88824262c1",
       "status" : "passed",
       "time" : {
-        "start" : 1623602237773,
-        "stop" : 1623602241093,
-        "duration" : 3320
+        "start" : 1623686119266,
+        "stop" : 1623686125368,
+        "duration" : 6102
       }
     } ]
   },
@@ -28,31 +28,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ea08ed0965931d65",
+      "uid" : "668a778d6ee6d248",
       "status" : "passed",
       "time" : {
-        "start" : 1623602235454,
-        "stop" : 1623602236314,
-        "duration" : 860
-      }
-    } ]
-  },
-  "a749e41098ab2696b3705b84cdb546f0" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "b5b94da7094dc60d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1623602229391,
-        "stop" : 1623602234000,
-        "duration" : 4609
+        "start" : 1623686113847,
+        "stop" : 1623686115984,
+        "duration" : 2137
       }
     } ]
   },
@@ -66,12 +47,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fa443c783a281631",
+      "uid" : "8f1f44db577f8f94",
       "status" : "passed",
       "time" : {
-        "start" : 1623602235053,
-        "stop" : 1623602236240,
-        "duration" : 1187
+        "start" : 1623686111929,
+        "stop" : 1623686115265,
+        "duration" : 3336
+      }
+    } ]
+  },
+  "a749e41098ab2696b3705b84cdb546f0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "89612dfd29f77d97",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623686102564,
+        "stop" : 1623686110292,
+        "duration" : 7728
       }
     } ]
   },
@@ -85,31 +85,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "96460feb687d423e",
+      "uid" : "fc50a1c55293ce58",
       "status" : "passed",
       "time" : {
-        "start" : 1623602228157,
-        "stop" : 1623602232899,
-        "duration" : 4742
-      }
-    } ]
-  },
-  "08969c5a0f8a9bbe3998ec87e9ad0c71" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "c3ad6595854d3431",
-      "status" : "passed",
-      "time" : {
-        "start" : 1623602234272,
-        "stop" : 1623602235262,
-        "duration" : 990
+        "start" : 1623686102644,
+        "stop" : 1623686110715,
+        "duration" : 8071
       }
     } ]
   },
@@ -123,12 +104,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9468c67cfcc77b85",
+      "uid" : "2c77aa84dfbaceb1",
       "status" : "passed",
       "time" : {
-        "start" : 1623602237922,
-        "stop" : 1623602241071,
-        "duration" : 3149
+        "start" : 1623686120287,
+        "stop" : 1623686124185,
+        "duration" : 3898
       }
     } ]
   },
@@ -142,13 +123,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3e5c8646116f5ca8",
+      "uid" : "69438169ab6cdc4",
       "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Continue\"}\n  (Session info: headless chrome=91.0.4472.101)",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Continue\"}\n  (Session info: chrome=91.0.4472.101)",
       "time" : {
-        "start" : 1623602236673,
-        "stop" : 1623602240883,
-        "duration" : 4210
+        "start" : 1623686117821,
+        "stop" : 1623686125884,
+        "duration" : 8063
+      }
+    } ]
+  },
+  "08969c5a0f8a9bbe3998ec87e9ad0c71" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d6d48e558a9c90f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623686114605,
+        "stop" : 1623686116285,
+        "duration" : 1680
       }
     } ]
   },
@@ -162,12 +162,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5a8480fe86ffb14a",
+      "uid" : "2182a589f52127bd",
       "status" : "passed",
       "time" : {
-        "start" : 1623602229327,
-        "stop" : 1623602230832,
-        "duration" : 1505
+        "start" : 1623686102513,
+        "stop" : 1623686104593,
+        "duration" : 2080
       }
     } ]
   },
@@ -181,12 +181,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2f6bf09ff6287f31",
+      "uid" : "6dbeb1192706dfc2",
       "status" : "passed",
       "time" : {
-        "start" : 1623602232337,
-        "stop" : 1623602233667,
-        "duration" : 1330
+        "start" : 1623686107330,
+        "stop" : 1623686109499,
+        "duration" : 2169
       }
     } ]
   }

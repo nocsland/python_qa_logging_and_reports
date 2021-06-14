@@ -115,8 +115,11 @@ def get_environment(pytestconfig):
     browser_name = pytestconfig.getoption("--browser")
     props = {
         'OS': os.getenv('DESKTOP_SESSION'),
+        'Shell': os.getenv('SHELL'),
+        'Terminal': os.getenv('TERM'),
         'Browser': browser_name,
         'Stand': 'Production'
+
     }
 
     tests_root = pytestconfig.rootdir
